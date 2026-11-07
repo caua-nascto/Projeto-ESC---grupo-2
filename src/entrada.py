@@ -1,12 +1,12 @@
-# from datetime import datetime
+ from datetime import datetime
 
 
-# def ler_nome():
-#     while True:
-#         nome = input("Nome: ").strip()
-#         if nome:
-#             return nome
-#         print("O nome não pode ficar vazio.")
+ def ler_nome():
+     while True:
+         nome = input("Nome: ").strip()
+         if nome:
+            return nome
+        print("O nome não pode ficar vazio.")
 
 
 # def ler_data_nascimento():
